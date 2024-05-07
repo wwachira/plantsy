@@ -2,7 +2,7 @@
 export default function AddPlant() {
   return (
     <div>
-      Add Plant
+      <h6> Add Plant </h6>
     </div>
   )
 }

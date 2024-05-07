@@ -21,11 +21,47 @@ function PlantList() {
           alt=""
           className="w-full h-[250px] object-cover"
         />
+         <img
+          src="https://st3.depositphotos.com/13349494/36993/i/600/depositphotos_369934244-stock-photo-green-fresh-leaves-white-wall.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://st2.depositphotos.com/21936426/44482/i/600/depositphotos_444829030-stock-photo-trees-grow-naturally-good-quality.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://st.depositphotos.com/1743476/1262/i/600/depositphotos_12621249-stock-photo-new-life.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://st3.depositphotos.com/16122460/34603/i/600/depositphotos_346039074-stock-photo-beautiful-lush-tropical-leaves-isolated.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://st3.depositphotos.com/13349494/16764/i/600/depositphotos_167643512-stock-photo-potted-ficus-plant.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://www.realsimple.com/thmb/zwhZIwXxthTPr7sUIMBqOGQZoR0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/caladium_0-e77057c604424098bfec2c859d3e60a0.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+         <img
+          src="https://www.realsimple.com/thmb/uKisYtgDflpyy0sAf9ptdfVM0NI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/persian-shield_0-a2ce32d0239e45c8a5072842e9f25518.jpg"
+          alt=""
+          className="w-full h-[250px] object-cover"
+        />
+        
+
+
+
       </div>
 
-      <div>
-        <h4 className="font-bold text-xl"></h4>
-      </div>
     </div>
     
 
@@ -44,6 +80,7 @@ function SearchPlant({ searchInput, setSearchInput }) {
         value={searchInput}
         onChange={(e) => setSearchInput(e.target.value)}
       />
+
     </div>
   );
 }
@@ -55,7 +92,7 @@ function App() {
     <main className="px-10">
       <Logo />
       <AddPlant />
-      <SearchPlant searchInput={searchInput} setSearchInput={setSearchInput} />
+      <SearchPlant searchInput={searchInput} setSearchInput={setSearchInput}/>
       <PlantList />
     </main>
   );
